@@ -1,7 +1,10 @@
-use std::time::Duration;
-use std::{fs, thread};
-use std::net::{ TcpListener, TcpStream };
-use std::io::prelude::*;
+use std::{
+    fs, 
+    thread,
+    net::{TcpListener, TcpStream},
+    time::Duration,
+    io::prelude::*,
+};
 
 use server::ThreadPool;
 
